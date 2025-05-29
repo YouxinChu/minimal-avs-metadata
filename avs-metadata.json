@@ -1,0 +1,79 @@
+{
+  "name": "My Minimal AVS",
+  "description": "A fully functional minimal AVS for data validation on EigenLayer Holesky testnet",
+  "logo": "https://via.placeholder.com/200x200.png?text=My+AVS",
+  "website": "https://github.com/Youxin/minimal-avs-project",
+  "version": "1.0.0",
+  "category": "Data Validation",
+  "tags": [
+    "validation",
+    "data",
+    "minimal",
+    "testnet"
+  ],
+  "networks": [
+    "holesky"
+  ],
+  "contractAddress": "0xe9b00e3157e67E0639e2657F8CAc8EE2Ef1A8E32",
+  "features": [
+    "Operator Registration and Management",
+    "Task Creation and Assignment",
+    "Automatic Reward Distribution",
+    "Real-time Statistics and Monitoring"
+  ],
+  "technical": {
+    "minimumStake": "0.1 ETH",
+    "maxOperators": 100,
+    "taskTypes": [
+      "data_validation",
+      "integrity_check"
+    ],
+    "rewardMechanism": "per_task_completion",
+    "slashingConditions": [
+      "invalid_response",
+      "operator_offline"
+    ]
+  },
+  "requirements": {
+    "hardware": "Minimal - 1GB RAM, 10GB Storage",
+    "network": "Stable internet connection",
+    "software": "Compatible with EigenLayer operator tools"
+  },
+  "economics": {
+    "operatorRewards": "Variable based on task completion",
+    "protocolFee": "5% of task rewards",
+    "slashingRisk": "Low to Medium"
+  },
+  "social": {
+    "twitter": "https://twitter.com/your_avs",
+    "discord": "https://discord.gg/your_avs",
+    "telegram": "https://t.me/your_avs",
+    "github": "https://github.com/Youxin/minimal-avs-project",
+    "documentation": "https://github.com/Youxin/minimal-avs-project/wiki"
+  },
+  "team": {
+    "name": "Minimal AVS Team",
+    "contact": "team@your-avs.com",
+    "timezone": "UTC"
+  },
+  "deployment": {
+    "network": "holesky",
+    "chainId": 17000,
+    "deployedAt": "2025-05-29",
+    "blockNumber": 1234567,
+    "verified": true,
+    "etherscanUrl": "https://holesky.etherscan.io/address/0xe9b00e3157e67E0639e2657F8CAc8EE2Ef1A8E32"
+  },
+  "status": {
+    "operational": true,
+    "lastUpdated": "2025-05-29",
+    "uptime": "99.9%",
+    "operatorCount": 0,
+    "taskCount": 0
+  },
+  "support": {
+    "documentation": "https://github.com/Youxin/minimal-avs-project/wiki",
+    "faq": "https://github.com/Youxin/minimal-avs-project/wiki/FAQ",
+    "issues": "https://github.com/Youxin/minimal-avs-project/issues"
+  }
+}
