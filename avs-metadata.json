@@ -1,79 +1,42 @@
 {
-  "name": "My Minimal AVS",
-  "description": "A fully functional minimal AVS for data validation on EigenLayer Holesky testnet",
-  "logo": "https://via.placeholder.com/200x200.png?text=My+AVS",
-  "website": "https://github.com/YouxinChu/minimal-avs-project",
-  "version": "1.0.0",
-  "category": "Data Validation",
-  "tags": [
-    "validation",
-    "data",
-    "minimal",
-    "testnet"
-  ],
-  "networks": [
-    "holesky"
-  ],
-  "contractAddress": "0xe9b00e3157e67E0639e2657F8CAc8EE2Ef1A8E32",
-  "features": [
-    "Operator Registration and Management",
-    "Task Creation and Assignment",
-    "Automatic Reward Distribution",
-    "Real-time Statistics and Monitoring"
-  ],
-  "technical": {
-    "minimumStake": "0.1 ETH",
-    "maxOperators": 100,
-    "taskTypes": [
-      "data_validation",
-      "integrity_check"
+    "name": "Hello World AVS",
+    "description": "A simple Hello World AVS demonstrating basic EigenLayer functionality with task creation and operator responses.",
+    "logo": "https://raw.githubusercontent.com/eigenlayer-hello-world/avs-metadata/main/logo.png",
+    "website": "https://github.com/eigenlayer-hello-world",
+    "version": "1.0.0",
+    "tags": [
+        "demo",
+        "hello-world",
+        "eigenlayer",
+        "avs"
     ],
-    "rewardMechanism": "per_task_completion",
-    "slashingConditions": [
-      "invalid_response",
-      "operator_offline"
-    ]
-  },
-  "requirements": {
-    "hardware": "Minimal - 1GB RAM, 10GB Storage",
-    "network": "Stable internet connection",
-    "software": "Compatible with EigenLayer operator tools"
-  },
-  "economics": {
-    "operatorRewards": "Variable based on task completion",
-    "protocolFee": "5% of task rewards",
-    "slashingRisk": "Low to Medium"
-  },
-  "social": {
-    "twitter": "https://twitter.com/your_avs",
-    "discord": "https://discord.gg/your_avs",
-    "telegram": "https://t.me/your_avs",
-    "github": "https://github.com/YouxinChu/minimal-avs-project",
-    "documentation": "https://github.com/YouxinChu/minimal-avs-project/wiki"
-  },
-  "team": {
-    "name": "Minimal AVS Team",
-    "contact": "team@your-avs.com",
-    "timezone": "UTC"
-  },
-  "deployment": {
-    "network": "holesky",
-    "chainId": 17000,
-    "deployedAt": "2025-05-29",
-    "blockNumber": 1234567,
-    "verified": true,
-    "etherscanUrl": "https://holesky.etherscan.io/address/0xe9b00e3157e67E0639e2657F8CAc8EE2Ef1A8E32"
-  },
-  "status": {
-    "operational": true,
-    "lastUpdated": "2025-05-29",
-    "uptime": "99.9%",
-    "operatorCount": 0,
-    "taskCount": 0
-  },
-  "support": {
-    "documentation": "https://github.com/YouxinChu/minimal-avs-project/wiki",
-    "faq": "https://github.com/YouxinChu/minimal-avs-project/wiki/FAQ",
-    "issues": "https://github.com/YouxinChu/minimal-avs-project/issues"
-  }
+    "social": {
+        "github": "https://github.com/eigenlayer-hello-world",
+        "twitter": "https://twitter.com/eigenlayer",
+        "discord": "https://discord.gg/eigenlayer"
+    },
+    "contracts": {
+        "holesky": {
+            "serviceManager": "0x7DD0B75732e54fCeA728c87e61C96CF7Dc00308c",
+            "taskResponseWindowBlock": 100
+        }
+    },
+    "features": [
+        "Task Creation",
+        "Operator Registration",
+        "Task Response Validation",
+        "Decentralized Validation"
+    ],
+    "documentation": {
+        "overview": "This AVS demonstrates the basic functionality of EigenLayer's AVS framework through a simple Hello World implementation.",
+        "operator_guide": "Operators can register and respond to tasks created by the service manager.",
+        "api_reference": "Contract ABI and function documentation available in the repository."
+    },
+    "requirements": {
+        "minimum_stake": "0 ETH",
+        "supported_networks": [
+            "holesky"
+        ],
+        "operator_requirements": "Any Ethereum address can register as an operator"
+    }
 }
