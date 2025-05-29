@@ -17,7 +17,7 @@
     },
     "contracts": {
         "holesky": {
-            "serviceManager": "0x7118b4De865B1752c3Aa899a5f09419f28124708",
+            "serviceManager": "0xa4815D4eCAa703C506df3b5Ae5906a55E2C3085d",
             "taskResponseWindowBlock": 100
         }
     },
@@ -43,7 +43,7 @@
     },
     "deployment": {
         "network": "holesky",
-        "contractAddress": "0x7118b4De865B1752c3Aa899a5f09419f28124708",
+        "contractAddress": "0xa4815D4eCAa703C506df3b5Ae5906a55E2C3085d",
         "deployer": "0x75b9754dbdA8594eDafcCBD0Bae7a6dbA3DF27b9",
         "deploymentDate": "2024-12-29",
         "verified": true
