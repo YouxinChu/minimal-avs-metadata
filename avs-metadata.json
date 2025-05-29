@@ -2,7 +2,7 @@
   "name": "My Minimal AVS",
   "description": "A fully functional minimal AVS for data validation on EigenLayer Holesky testnet",
   "logo": "https://via.placeholder.com/200x200.png?text=My+AVS",
-  "website": "https://github.com/Youxin/minimal-avs-project",
+  "website": "https://github.com/YouxinChu/minimal-avs-project",
   "version": "1.0.0",
   "category": "Data Validation",
   "tags": [
@@ -48,8 +48,8 @@
     "twitter": "https://twitter.com/your_avs",
     "discord": "https://discord.gg/your_avs",
     "telegram": "https://t.me/your_avs",
-    "github": "https://github.com/Youxin/minimal-avs-project",
-    "documentation": "https://github.com/Youxin/minimal-avs-project/wiki"
+    "github": "https://github.com/YouxinChu/minimal-avs-project",
+    "documentation": "https://github.com/YouxinChu/minimal-avs-project/wiki"
   },
   "team": {
     "name": "Minimal AVS Team",
@@ -72,8 +72,8 @@
     "taskCount": 0
   },
   "support": {
-    "documentation": "https://github.com/Youxin/minimal-avs-project/wiki",
-    "faq": "https://github.com/Youxin/minimal-avs-project/wiki/FAQ",
-    "issues": "https://github.com/Youxin/minimal-avs-project/issues"
+    "documentation": "https://github.com/YouxinChu/minimal-avs-project/wiki",
+    "faq": "https://github.com/YouxinChu/minimal-avs-project/wiki/FAQ",
+    "issues": "https://github.com/YouxinChu/minimal-avs-project/issues"
   }
 }
