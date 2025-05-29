@@ -1,0 +1,79 @@
+{
+  "name": "ModernMinimalAVS",
+  "description": "A modern minimal AVS implementation using the latest EigenLayer architecture with IAVSRegistrar interface and AllocationManager support. This AVS demonstrates operator registration, task management, and reward distribution in the EigenLayer ecosystem.",
+  "logo": "https://raw.githubusercontent.com/Layr-Labs/eigenlayer-middleware/main/assets/eigenlayer-logo.png",
+  "website": "https://github.com/YouxinChu/modern-minimal-avs",
+  "twitter": "https://twitter.com/eigenlayer",
+  "version": "3.0.0",
+  "releaseDate": "2024-12-01",
+  "category": "Infrastructure",
+  "tags": [
+    "eigenlayer",
+    "avs",
+    "minimal",
+    "modern",
+    "infrastructure"
+  ],
+  "architecture": {
+    "type": "modern",
+    "interfaces": [
+      "IAVSRegistrar"
+    ],
+    "features": [
+      "Operator registration and management",
+      "Task assignment and completion tracking",
+      "Reward distribution system",
+      "AllocationManager integration",
+      "OperatorSet management"
+    ]
+  },
+  "networks": {
+    "holesky": {
+      "contractAddress": "0x75Ba7219f207d969Cb78802306C5DCF308586bc8",
+      "deploymentBlock": "latest",
+      "chainId": 17000
+    }
+  },
+  "operators": {
+    "minimumStake": "0.1 ETH",
+    "slashingConditions": [
+      "Task completion failure",
+      "Malicious behavior",
+      "Extended downtime"
+    ],
+    "rewardMechanism": "Per-task completion with bonus for consistency",
+    "currentCount": "1"
+  },
+  "tasks": {
+    "type": "Computational verification",
+    "frequency": "On-demand",
+    "totalCreated": "1",
+    "totalCompleted": "0",
+    "averageReward": "0.001 ETH"
+  },
+  "economics": {
+    "rewardPool": "0.05 ETH",
+    "feeStructure": "0.1% of rewards",
+    "tokenomics": "ETH-based rewards"
+  },
+  "security": {
+    "auditStatus": "Self-audited",
+    "slashingEnabled": true,
+    "emergencyPause": true
+  },
+  "governance": {
+    "type": "Owner-controlled",
+    "upgradeable": true,
+    "pausable": true
+  },
+  "contact": {
+    "email": "contact@modern-minimal-avs.com",
+    "discord": "https://discord.gg/eigenlayer",
+    "documentation": "https://github.com/YouxinChu/modern-minimal-avs/blob/main/README.md"
+  },
+  "metadata": {
+    "version": "1.0.0",
+    "lastUpdated": "2025-05-29T04:40:10.330Z",
+    "schema": "https://github.com/Layr-Labs/eigenlayer-middleware/blob/main/avs-metadata-schema.json"
+  }
+}
