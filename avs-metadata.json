@@ -2,7 +2,7 @@
     "name": "Hello World AVS",
     "description": "A simple Hello World AVS demonstrating basic EigenLayer functionality with task creation and operator responses.",
     "logo": "https://raw.githubusercontent.com/eigenlayer-hello-world/avs-metadata/main/logo.png",
-    "website": "https://github.com/eigenlayer-hello-world",
+    "website": "https://github.com/YouxinChu/minimal-avs-metadata",
     "version": "1.0.0",
     "tags": [
         "demo",
@@ -11,13 +11,13 @@
         "avs"
     ],
     "social": {
-        "github": "https://github.com/eigenlayer-hello-world",
+        "github": "https://github.com/YouxinChu/minimal-avs-metadata",
         "twitter": "https://twitter.com/eigenlayer",
         "discord": "https://discord.gg/eigenlayer"
     },
     "contracts": {
         "holesky": {
-            "serviceManager": "0x7DD0B75732e54fCeA728c87e61C96CF7Dc00308c",
+            "serviceManager": "0x7118b4De865B1752c3Aa899a5f09419f28124708",
             "taskResponseWindowBlock": 100
         }
     },
@@ -25,11 +25,13 @@
         "Task Creation",
         "Operator Registration",
         "Task Response Validation",
-        "Decentralized Validation"
+        "Decentralized Validation",
+        "EigenLayer Integration",
+        "Metadata Management"
     ],
     "documentation": {
-        "overview": "This AVS demonstrates the basic functionality of EigenLayer's AVS framework through a simple Hello World implementation.",
-        "operator_guide": "Operators can register and respond to tasks created by the service manager.",
+        "overview": "This AVS demonstrates the basic functionality of EigenLayer's AVS framework through a simple Hello World implementation with full operator and task management.",
+        "operator_guide": "Operators can register and respond to tasks created by the service manager. All interactions are recorded on-chain.",
         "api_reference": "Contract ABI and function documentation available in the repository."
     },
     "requirements": {
@@ -38,5 +40,12 @@
             "holesky"
         ],
         "operator_requirements": "Any Ethereum address can register as an operator"
+    },
+    "deployment": {
+        "network": "holesky",
+        "contractAddress": "0x7118b4De865B1752c3Aa899a5f09419f28124708",
+        "deployer": "0x75b9754dbdA8594eDafcCBD0Bae7a6dbA3DF27b9",
+        "deploymentDate": "2024-12-29",
+        "verified": true
     }
 }
