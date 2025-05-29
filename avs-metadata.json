@@ -1,51 +1,7 @@
 {
-    "name": "Hello World AVS",
-    "description": "A simple Hello World AVS demonstrating basic EigenLayer functionality with task creation and operator responses.",
-    "logo": "https://raw.githubusercontent.com/eigenlayer-hello-world/avs-metadata/main/logo.png",
-    "website": "https://github.com/YouxinChu/minimal-avs-metadata",
-    "version": "1.0.0",
-    "tags": [
-        "demo",
-        "hello-world",
-        "eigenlayer",
-        "avs"
-    ],
-    "social": {
-        "github": "https://github.com/YouxinChu/minimal-avs-metadata",
-        "twitter": "https://twitter.com/eigenlayer",
-        "discord": "https://discord.gg/eigenlayer"
-    },
-    "contracts": {
-        "holesky": {
-            "serviceManager": "0xa4815D4eCAa703C506df3b5Ae5906a55E2C3085d",
-            "taskResponseWindowBlock": 100
-        }
-    },
-    "features": [
-        "Task Creation",
-        "Operator Registration",
-        "Task Response Validation",
-        "Decentralized Validation",
-        "EigenLayer Integration",
-        "Metadata Management"
-    ],
-    "documentation": {
-        "overview": "This AVS demonstrates the basic functionality of EigenLayer's AVS framework through a simple Hello World implementation with full operator and task management.",
-        "operator_guide": "Operators can register and respond to tasks created by the service manager. All interactions are recorded on-chain.",
-        "api_reference": "Contract ABI and function documentation available in the repository."
-    },
-    "requirements": {
-        "minimum_stake": "0 ETH",
-        "supported_networks": [
-            "holesky"
-        ],
-        "operator_requirements": "Any Ethereum address can register as an operator"
-    },
-    "deployment": {
-        "network": "holesky",
-        "contractAddress": "0xa4815D4eCAa703C506df3b5Ae5906a55E2C3085d",
-        "deployer": "0x75b9754dbdA8594eDafcCBD0Bae7a6dbA3DF27b9",
-        "deploymentDate": "2024-12-29",
-        "verified": true
-    }
+  "name": "Hello World AVS",
+  "website": "https://github.com/Layr-Labs/hello-world-avs",
+  "description": "A simple Hello World AVS for demonstrating EigenLayer functionality",
+  "logo": "https://raw.githubusercontent.com/Layr-Labs/eigenlayer-cli/master/static/eigenLayerLogo.png",
+  "twitter": "https://twitter.com/eigenlayer"
 }
