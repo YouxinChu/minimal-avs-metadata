@@ -1,0 +1,40 @@
+{
+    "name": "Hello World AVS",
+    "website": "https://github.com/your-username/hello-world-avs",
+    "description": "A simple Hello World AVS demonstrating basic EigenLayer functionality including task creation, operator registration, and response validation.",
+    "logo": "https://raw.githubusercontent.com/your-username/hello-world-avs/main/logo.png",
+    "twitter": "https://twitter.com/eigenlayer",
+    "version": "1.0.0",
+    "releaseDate": "2024-01-15",
+    "isActive": true,
+    "tags": [
+        "demo",
+        "hello-world",
+        "eigenlayer",
+        "avs"
+    ],
+    "restakeableStrategies": [
+        {
+            "address": "0xbeaC0eeEeeeeEEeEeEEEEeeEEeEeeeEeeEEBEaC0",
+            "tvlLimits": {
+                "maxPerDeposit": "1000000000000000000000",
+                "maxTotalDeposits": "10000000000000000000000"
+            }
+        }
+    ],
+    "operatorSetParams": {
+        "maxOperatorCount": 100,
+        "kickBIPsOfOperatorStake": 11000,
+        "kickBIPsOfTotalStake": 1001
+    },
+    "slashingTerms": {
+        "slashableStake": "1000000000000000000",
+        "slashingContract": "0x0000000000000000000000000000000000000000"
+    },
+    "rewardsSubmission": {
+        "rewardsSubmissionHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "token": "0x0000000000000000000000000000000000000000",
+        "amount": "0",
+        "duration": 0
+    }
+}
